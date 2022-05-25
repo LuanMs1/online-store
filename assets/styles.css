@@ -140,6 +140,8 @@ nav a{
     color:#e8d848;
 }
 
+/* using grids to adjust the images */
+/* here the main grid */
 .wrapper{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -148,6 +150,7 @@ nav a{
     /* column-gap: 10px; */
 }
 
+/* now to put the image in their respective places */
 .left-img1{
     grid-column:1;
     grid-row:1;
@@ -160,4 +163,19 @@ nav a{
 }
 .rigth-img{
     grid-column:1;
+}
+
+
+/* product section style */
+
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carosel-products{
+    display: flex;
+    align-items:center;
 }
