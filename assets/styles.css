@@ -179,3 +179,26 @@ nav a{
     display: flex;
     align-items:center;
 }
+
+.carosel-products button{
+    border:none;
+    font-size:36px;
+}
+
+.carosel-products img:hover{
+    transition: opacity 0.7s;
+    opacity: 0;
+}
+
+#product1{
+    background-image: url(../images/product1.png);
+}
+#product2{
+    background-image: url(../images/product2.png);
+}
+#product3{
+    background-image: url(../images/product3.png);
+}
+#product4{
+    background-image: url(../images/product4.png);
+}
