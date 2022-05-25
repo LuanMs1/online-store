@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
     <link href="//db.onlinewebfonts.com/c/f7d1b2995a6dff7abcda304d226aa67d?family=HelveticaW01-Bold" rel="stylesheet" type="text/css"/>
-
+    <link href="//db.onlinewebfonts.com/c/c5bd605b45237a12c99133fa9d7cae49?family=HelveticaW01-Roman" rel="stylesheet" type="text/css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Super camisetas</title>
 </head>
@@ -44,12 +44,12 @@
         <!-- ------------------------------ Presentation -------------------------------- -->
 
         <div class="wd carosel">
-            <img src="./images/carousel.png" alt="carousel">
+            <!-- <img src="./images/carousel.png" alt="carousel"> -->
         </div>
 
         <!-- promo tab -->
         <div class="promos wd">
-            <!-- each promo item is a icon with the promo -->
+            <!-- each promo-item div has an icon with the promo text-->
 
             <div class="promo-item">
                 <div class="material-icons promo-icon">flash_on</div>
@@ -100,10 +100,17 @@
         <!-- --------------------------------- Products ------------------------------------ -->
 
         <div class="products wd">
+
             <h2>Produtos em Destaque</h2>
         
             <div class="carosel-products wd">
+                <!-- arow left -->
                 <div class="arrow"><button class="next-product material-icons" type="button">navigate_before</button></div>
+                
+                <!-- ---------------------------------------- -->
+                <!-- --- Start of divs with the products ---- -->
+                <!-- ---------------------------------------- -->
+
                 <div class="product-card">
                     <div class="produc-image" id="product1"> <img src="./images/product-static1.png" alt="product"></div>
                     <p class="product-name">sou um produto</p>
@@ -126,16 +133,61 @@
                     <p class="product-name">sou um produto</p>
                     <p class="product-price">R$ 20,00</p>
                 </div>
+
+                <!-- -------------------------------------------- -->
+                <!-- ----------- End of the products ------------ -->
+                <!-- -------------------------------------------- -->            
                 
-                
-                
-                
+                <!-- arow right -->
                 <div class="arrow"><button class="next-product material-icons" type="button">navigate_next</button></div>
             </div>
         </div>
 
-
         <!-- ------------------------------------------------------------------------------- -->
+
+        <!-- ----------------------------------- Footer ------------------------------------- -->
+
+        <footer>
+            <div class="footer1">
+                <div class="footer-links">
+                    <p class="link-title">Sobre nós >></p>
+                    <p>
+                        Sou um parágrafo. Clique aqui para adicionar e editar seu próprio texto. É fácil.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <p class="link-title">Categorias >></p>
+                    <p>Feminino</p>
+                    <p>masculino</p>
+                    <p>Look Book</p>
+                </div>
+                <div class="footer-links">
+                    <p class="link-title">Atendimento >></p>
+                    <p>contato</p>
+                    <p>Politica de compras</p>
+                </div>
+                <div class="footer-links">
+                    <p class="link-title">contato >></p>
+                    <p>Tel: (11) 3230 - 5022</p>
+                    <p>Tel: (25) 2205 - 2033</p>
+                    <p>Email: info@meusite.com</p>
+                </div>
+                <div class="footer-links">
+                    <p class="link-title">Siga-nos >></p>
+                    <div class="social">
+                        <img src="./images/icons/facebook-svgrepo-com.svg" alt="Facebook" class="social-midia">
+                        <img src="./images/icons/instagram-svgrepo-com.svg" alt="instagram" class="social-midia">
+                        <img src="./images/icons/pinterest-svgrepo-com.svg" alt="pinterest" class="social-midia">
+                        <img src="./images/icons/twitter-svgrepo-com.svg" alt="twitter" class="social-midia">
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer2">
+                <p>c 2049 por super blebla. Orgulhosamente replicado do wix.com</p>
+                <p>super blebla ltda</p>
+            </div>
+        </footer>
         
     </main>
 </body>
